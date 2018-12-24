@@ -37,7 +37,7 @@ int generatePWM(int amt)
    return amt;
 }
 
-float errorFactor = 10;
+float errorFactor = 0.1111; //Experimental Value
 
 // For 1st Phase //
 bool flag = true;
